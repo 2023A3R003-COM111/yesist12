@@ -6,7 +6,6 @@
     box-sizing: border-box;  
 }
 
-
 /* Hero */
 .hero {
     position: relative;
@@ -56,8 +55,8 @@
 .about #heading {
     border: solid 2px #9faf0e;
     border-width: 0 0 2px 0;
-    width: 180px;
-    text-align: center;
+    /* width: 180px; */
+    /* text-align: center; */
     padding: 5px;
     margin-bottom: 15px;
     font-size: 20px;
@@ -66,4 +65,139 @@
     color: #9f9f9f;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 10vw;
+}
+.gallery #heading {
+    padding: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Protest Strike', sans-serif;
+}
+.gallery .container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery .container img {
+    height: 300px;
+    border: solid 3px #3f4d2a;
+    padding: 5px;
+}
+
+/* Features */
+.features {
+    padding: 8vh 10vw 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+.features #heading {
+    font-size: 35px;
+    padding-bottom: 40px;
+    font-family: 'Protest Strike', sans-serif;
+}
+.features #heading span {
+    color: #0f3f8f;
+    font-family: 'Protest Strike', sans-serif;
+}
+.features .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+.features .boxes .box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.features .boxes .box #head {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.features .boxes .box #body {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+/* Counter */
+.counter {
+    padding: 10vh 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2CB884;
+    text-align: center;
+}
+.counter p {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+}
+.counter p span {
+    font-weight: initial;
+}
+
+
+/* Why */
+.why {
+    padding: 10vh 10vw;
+}
+.why #heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.why .list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Footer */
+.footer {
+    padding: 6vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #111111;
+    color: #ffffff;
+}
+.footer #heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.footer .left {
+    display: flex;
+    flex-direction: column;
+}
+.footer .left a {
+    text-decoration: none;
+    color: #b9b9b9;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 2px;
+    padding: 1px 0;
+}
+.footer .left a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.footer .right p {
+    font-size: 14px;
+    color: #b9b9b9;
+    font-family: 'Nunito Sans', sans-serif;
 }

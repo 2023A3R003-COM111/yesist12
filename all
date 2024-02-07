@@ -30,7 +30,7 @@
     color: #000000;
 }
 .navbar .links a:hover {
-    color: #2CB884;
+    color: #0fffff;
     transition: 0.3s;
 }
 
