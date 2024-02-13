@@ -1,0 +1,37 @@
+.fas {
+    padding: 0 10px 0 0;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: calc(50px + 10vh) 10vw;
+}
+.contact #heading {
+    color: #000000;
+    font-size: 40px;
+    color: #E8E6E3;
+}
+.contact #heading span {
+    color: #0f3d;
+}
+.contact .container {
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact .container .person {
+    display: flex;
+    flex-direction: column;
+}
+.contact .container .person #head {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact .container .person #body span {
+    margin-right: 10px;
+}

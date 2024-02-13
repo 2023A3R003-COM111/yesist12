@@ -1,0 +1,58 @@
+.guidelines {
+    margin: 10vh 8vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+}
+.guidelines .container {
+    width: 38vw;
+}
+.guidelines #heading {
+    font-size: 30px;
+    padding: 5px 0;
+}
+.guidelines .box p {
+    padding: 2px 0;
+    font-size: 16px;
+    color: #dddddd;
+}
+.guidelines .fas {
+    padding: 0 5px 0 0;
+}
+
+
+/* Sponsorship Tires */
+.sponsor-tires {
+    margin: 15vh 10vw;
+}
+.sponsor-tires #heading {
+    font-size: 30px;
+    padding: 0 0 30px 0;
+}
+.sponsor-tires table, td, th {
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.sponsor-tires table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.sponsor-tires table th {
+    border: unset;
+}
+.sponsor-tires table #thl {
+    text-align: left;
+}
+.sponsor-tires table td i {
+    color: #198819;
+}
+.sponsor-tires table #light {
+    background-color: #212324;
+}
+.sponsor-tires table th {
+    letter-spacing: 2px;
+}
